@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* navbar */
+
+.logo {
+  width: 200px;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.71);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.navbar .bar-2 {
+  display: flex;
+  align-items: center;
+}
+
+.bar-2 p {
+  text-transform: uppercase;
+  padding: 10px;
+  list-style-type: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.bar-2 > p:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.button-sq button {
+  width: 90px;
+  height: 80px;
+  background: red;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.border-2 {
+  border-top: 7px solid red;
+  width: 60px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+/* section 2 */
+
+.register-cont {
+  padding: 150px 30px 0 50px;
+}
+
+.heading > h2 {
+  font-size: 3vw;
+}
+
+.heading > p {
+  font-size: 1.5vw;
+  margin-bottom: 30px;
+}
+
+.text-number-cont {
+  display: flex;
+  margin-bottom: 30px;
+}
+.text-no {
+  margin: 0 30px;
+}
+
+.border-3 {
+  border-top: 4px solid red;
+  width: 30px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.text-no > h3 {
+  font-size: 1.5vw;
+}
+
+.batch-1 {
+  padding: 0 5px 0 5px;
+  line-height: 23px;
+  font-size: 1.1vw;
+}
+.batch-2 {
+  margin-top: 30px;
+}
+
+.closed-cont {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.21);
+  width: 95%;
+}
+
+.closed-child {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  /* border: 2px solid green; */
+}
+
+.flex-b {
+  display: flex;
+  justify-content: center;
+}
+
+.border-4 {
+  border-top: 4px solid red;
+  width: 20px;
+  margin-top: 22px;
+  margin-right: 8px;
+  padding-bottom: 5px;
+}
+
+.flex-b > h3 {
+  font-size: 2vw;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.closed-child > p {
+  font-size: 1.4vw;
+  margin-top: 10px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.marg {
+  margin-left: 15%;
+}
+
+.closed-butt {
+  display: flex;
+  justify-content: center;
+}
+
+.closed-butt > button {
+  width: 55%;
+  height: 60px;
+  text-transform: uppercase;
+  border: 2px solid red;
+  color: red;
+  margin-top: 20px;
+  background: transparent;
+  margin-left: 30px;
+}
+
+.closed-butt > button:hover {
+  background: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container-venue {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  height: 50vh;
+  padding: 100px;
+  margin: 30px 110px;
+  align-items: center;
+}
+
+.fa-clock,
+.fa-location-dot {
+  color: red;
+  font-size: 35px;
+  margin-left: 50px;
+  padding-bottom: 10px;
+}
+
+.fa-location-dot {
+  margin-left: 100px;
+}
+
+.child-venue > h4,
+.child-venue > p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.child-venue > h4 {
+  font-size: 1.2vw;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.child-venue > p {
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.button-rec button {
+  width: 180px;
+  height: 80px;
+  background: transparent;
+  text-transform: uppercase;
+  color: red;
+  border: 2px solid red;
+  font-size: 18px;
+}
+
+.button-rec button:hover {
+  background: red;
+  color: #fff;
+  cursor: pointer;
+}
+/* section 4 (COUNT-DOWN) */
+
+.container-count-down {
+  background-image: url(https://d33wubrfki0l68.cloudfront.net/res/images/44b10f4753a9c2a6b3b1588124315c41264cb4c5/bg-parallax.jpg);
+  background-size: cover;
+  height: 45vh;
+  background-position: center;
+  color: #fff;
+}
+.container-count-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+.child-count-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.child-count-down > h4 {
+  font-size: 6vw;
+  margin: 0 25px;
+}
+
+.child-count-down > p {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* foooter */
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 50px 20px 50px;
+  height: 40vh;
+}
+
+.child-footer > p {
+  width: 380px;
+  line-height: 20px;
+  padding-top: 15px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  color: grey;
+  margin-right: 20px;
+  font-size: 25px;
+}
